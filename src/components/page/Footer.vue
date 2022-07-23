@@ -5,16 +5,7 @@
                 <v-btn
                     icon
                     color="#FFFFFF"
-                    href="https://github.com/GeoGuess/Geoguess"
-                >
-                    <v-icon size="30">
-                        mdi-github
-                    </v-icon>
-                </v-btn>
-                <v-btn
-                    icon
-                    color="#FFFFFF"
-                    href="https://discord.gg/9GXm6RT"
+                    href="https://discord.gg/nsxkBtPAyx"
                 >
                     <v-icon size="30">
                         mdi-discord
@@ -23,7 +14,7 @@
                 <v-btn
                     icon
                     color="#FFFFFF"
-                    href="https://twitter.com/BilelJegham"
+                    href=""
                 >
                     <v-icon size="30">
                         mdi-twitter
@@ -32,7 +23,7 @@
                 <v-btn
                     icon
                     color="#FFFFFF"
-                    href="https://www.instagram.com/geoguess.games/"
+                    href="https://www.instagram.com/2loopvoyvoda/"
                 >
                     <v-icon size="30">
                         mdi-instagram
@@ -42,14 +33,9 @@
             <div class="licence">
                 <p class="mb-0">
                     {{ version }} - {{ $t('Footer.under') }}
-                    <a
-                        href="https://github.com/GeoGuess/Geoguess/blob/master/LICENSE"
+                    <
                     >MIT license</a>
                 </p>
-            </div>
-
-            <div>
-                <a href="https://geoguess.games/">{{ $t('Header.about') }}</a>
             </div>
         </div>
     </footer>
